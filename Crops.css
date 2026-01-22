@@ -1,0 +1,87 @@
+.icon{
+  width: 50px;
+   height: 50px;
+  margin-left: -2rem;
+}
+.logo{
+    margin-left: -10rem;
+}
+.hero {
+  background: url("https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&w=1400&q=80")
+    no-repeat center center/cover;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(19, 66, 19);
+  text-align: center;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: green;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  color: #1a1a1a;
+}
+
+.cart-icon:hover {
+  background: #f8f9fa;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #ff006e;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+}
+
+.btn-primary {
+  background: #3a86ff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #2667cc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
